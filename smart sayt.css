@@ -1,0 +1,524 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-section {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #5a9;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-image {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    object-fit: cover; /* Чтобы изображение правильно масштабировалось */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.icon-placeholder {
+    width: 60px;
+    height: 60px;
+    background-color: #a9d6e5;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #000000;
+}
+
+.image {
+    flex: 1;
+    background-image: url('002.jpg'); 
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.content2 {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 2.2;
+    margin-bottom: 20px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 40px;  
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.content2 {
+    flex: 1;
+    padding-left: 40px;
+}
+
+
+.button1 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.grid-item p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.grid-item button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.grid-item button:hover {
+    background-color: #0056b3;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+
+
+
+/* NEW*/
+.container0 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #002147; /* Темно-синий фон */
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    flex: 1;
+    max-width: 600px;
+    color: white;
+}
+
+h2 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.item {
+    background-color: rgba(255, 255, 255, 0.1); /* Полупрозрачный белый блок */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item p {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image-container img {
+    max-width: 400px; /* Максимальная ширина изображения */
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Тень для изображения */
+}
+
+.more {
+    margin-top: 30px;
+}
+
+.more p {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.more p:hover {
+    background-color: #0056b3;
+}
+
+
+.footer-image-container {
+    display: flex;
+    justify-content: center; /* Центрируем изображение */
+    margin: 40px 0; /* Отступы сверху и снизу */
+}
+
+.footer-image-container img {
+    width: 100%; /* Ширина изображения на всю доступную ширину */
+    max-width: 1200px; /* Максимальная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    border-radius: 10px; /* Закругление углов */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Тень для изображения */
+}
+
+
+/* футер*/
+.creative-background {
+    position: relative; /* Для позиционирования текста */
+    background-color: #002147; /* Темно-синий фон */
+    background-image: url('your-background-image.jpg'); /* Поставьте путь к вашему фоновому изображению */
+    background-size: cover; /* Обеспечивает покрытие всего фона */
+    background-position: center; /* Центрирует фоновое изображение */
+    color: white; /* Цвет текста */
+    padding: 50px; /* Отступы внутри блока */
+    border-radius: 10px; /* Закругление углов */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Тень для блока */
+    overflow: hidden; /* Скрывает излишки */
+    text-align: center; /* Центрирует текст */
+}
+
+.text-content {
+    position: relative; /* Позиционирование для контента */
+    z-index: 2; /* Выводит текст поверх фона */
+}
+
+.text-content p {
+    font-size: 18px; /* Размер шрифта */
+    line-height: 1.6; /* Высота строки для лучшей читаемости */
+    margin: 0; /* Убираем отступы по умолчанию */
+    opacity: 0.9; /* Полупрозрачность текста */
+}
+
+
+
+
+.nature-image-container {
+    position: relative; /* Для позиционирования текста поверх изображения */
+    max-width: 80%; /* Ограничение по ширине */
+    margin: 40px auto; /* Центрирование контейнера с отступом сверху */
+    overflow: hidden; /* Скрытие части элементов, выходящих за пределы блока */
+    text-align: left; /* Текст по левому краю */
+}
+
+.nature-image {
+    display: block; /* Убирает пробелы под изображением */
+    margin: 0 auto; /* Центрирование изображения */
+    width: 100%; /* Изображение на всю ширину контейнера */
+    height: auto; /* Автоматическая высота */
+}
+
+.nature-text {
+    position: absolute; /* Позволяет позиционировать текст поверх изображения */
+    left: 0px; /* Расположение текста слева */
+    bottom: 150px; /* Расположение текста внизу */
+    color: white; /* Цвет текста */
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон для текста */
+    padding: 50px; /* Отступы внутри текстового блока */
+    border-radius: 20px; /* Закругление углов */
+}
+
+.learn-more-button {
+    position: absolute; /* Позволяет задать позицию кнопки */
+    right: 20px; /* Расположение кнопки справа */
+    bottom: 20px; /* Расположение кнопки внизу */
+    padding: 20px 25px; /* Отступы внутри кнопки */
+    background-color: #007bff; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border-radius: 5px; /* Закругление углов кнопки */
+    cursor: pointer; /* Указатель при наведении */
+}
+
+.learn-more-button:hover {
+    background-color: #0056b3; /* Цвет кнопки при наведении */
+}
+
+
+
+
+/*sign in*/ 
+.container7 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contact-info {
+    width: 45%;
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-info h2 {
+    color: #00796b;
+}
+
+.contact-form {
+    width: 45%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #00796b;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #004d40;
+}
+
+.social-media a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #00796b;
+}
+.modal{
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 30px 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.modal-main{
+    background-color: #fff;
+    width: 800px;
+    height: 500px;
+    border-radius: 30px;
+    padding: 30px;
+}
+.modal-main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .x{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #000000;
+    position: absolute;
+    top: 45px;
+    right: 200px;
+    padding: 5px 8px;
+    background-color: #fff;
+    border-radius: 50%;
+ }
+
+.modal-main h1{
+    font-size: 50px;
+    color: #55AA99;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.modal-main input{
+    width: 80%;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.modal-main form button{
+    padding: 10px 0;
+    background-color: #55AA99;
+    color: #fff;
+    width: 350px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 24px;
+    border-color: #55AA99;
+    margin-bottom: 30px;
+}
+
+.modal-main a{
+    align-items: center;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 24px;
+}
+
+.modal-main a:hover{
+    color: #55AA99;
+    transition: 0.2;
+}
